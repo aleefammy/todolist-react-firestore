@@ -1,0 +1,70 @@
+input[type="checkbox"]{
+    transform: scale(2);
+    accent-color: green;
+    margin-bottom: 0;
+    cursor: pointer;
+    }
+
+.list-item{
+    display: flex;
+    /* justify-content: space-between; */
+  }
+  .list-item-box{
+    /* border: 1px solid gray; */
+    border-radius: 15px;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    background-color: #EFECEC;
+    cursor: pointer;
+  
+    transform: translateZ(0);
+    transition: transform 0.25s ease-out;
+  }
+  
+  .list-item-box:hover {
+    transform: scale(1.05);
+    background-color: #FFB0B0;
+  }
+  
+  .list-item-chkbox{
+    margin-right: 1rem;
+  }
+  .list-item-time{
+    font-style: italic;
+    font-size: smaller;
+  }
+  .list-item--content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    text-align: start;
+    /* border: 1px dashed blue; */
+  }
+  
+  .list-item--content > p{
+    margin-right: 0.75rem;
+  }
+    
+.done-true{
+text-decoration: line-through;
+}
+
+.done-bg-true{
+  background-color: grey;
+}
+
+.done-bg-true:hover {
+  background-color: lightgray;
+}
+
+.list-item-edit {
+  display: flex;
+  align-items: center;
+  color: #001157;
+  cursor: pointer;
+}
+
+.list-item-edit--pen{
+  margin-right: 0.5rem;
+}

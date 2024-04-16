@@ -1,0 +1,48 @@
+input{
+    margin-bottom: 1rem;
+    padding: 0.7rem;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-family: "itim"
+  }
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+  
+input:focus{
+background-color: #FC6736;
+}
+
+button{
+    width: 25%;
+    /* margin: auto; */
+    border-radius: 10px;
+    padding: 0.5rem;
+    font-family: "itim";
+    font-size: 1.25rem;
+    cursor: pointer;
+  }
+  
+button:hover {
+transform: scale(1.05);
+background-color: #FC6736;
+}
+
+.input-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.controller{
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
